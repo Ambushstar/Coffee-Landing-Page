@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Great+Vibes&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=DM+Sans:wght@500&family=Great+Vibes&family=Poppins:wght@300&display=swap');
+
+/* .contact {
+    max-width: 100%;
+    height: 70vh;
+    display: flex;
+    padding: 2rem;
+    background-color: #c5a86d;
+} */
+
+.input_fields,
+.input_field_phone,
+.contact_form_submit {
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.btn_submit {
+    padding: 6px;
+    background-color: #c5a86d;
+    border: none;
+    padding: 14px 36px 14px 36px;
+    border-radius: 10rem;
+    color: #301b0d;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.btn_submit:hover {
+    color: #c5a86d;
+    background-color: #301b0d;
+    transition-duration: 350ms;
+    cursor: pointer;
+}
+
+.input {
+    margin-top: 6px;
+    background-color: #c5a86d;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 34rem;
+}
+
+/* Chatgpt css code */
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #301b0d;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    background-color: #200b03;
+}
+
+.contact_form {
+    flex-basis: 50%;
+    padding: 40px;
+}
+
+.contact_image {
+    flex-basis: 50%;
+    background-image: url('your-image-url');
+    background-size: cover;
+    background-position: center;
+}
+
+.Form_heading {
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #e1e1e1;
+    font-size: 3.4rem;
+    font-weight: bolder;
+}
+
+.form_subHeading {
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #e1e1e1;
+    font-size: 1.5rem;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bolder;
+}
+
+.form_part1,
+.form_part2 {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #e1e1e1;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #593121;
+    border: 1px solid #301b0d;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #e1e1e1;
+    font-family: 'DM Sans', sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #593121;
+    color: #e1e1e1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1rem;
+}

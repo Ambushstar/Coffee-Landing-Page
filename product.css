@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Great+Vibes&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=DM+Sans:wght@500&family=Great+Vibes&family=Poppins:wght@300&display=swap');
+
+.product_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #200b03;
+}
+
+.prod1,.prod2,.prod3 {
+    height: 20rem;
+    width: 16rem;
+    background-color: #593121;
+    border-radius: 16px;
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
+
+.prod1_img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.prod1_desc {
+    padding: 22px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: #e1e1e1;
+    text-transform: capitalize;
+}
+
+.btn_prod1 {
+    padding: 6px;
+    background-color: #02020A;
+    border: none;
+    padding: 14px 36px 14px 36px;
+    border-radius: 10px;
+    color: #F4EBD9;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn_prod1:hover{
+    color: #02020A;
+    background-color: #F4EBD9;
+    transition-duration: 350ms;
+    cursor: pointer;
+}
+.btn_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.prod_title{
+    text-align: center;
+    color: #43AA8B;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+    text-transform: uppercase;
+}

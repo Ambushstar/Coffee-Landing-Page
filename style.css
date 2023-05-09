@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Great+Vibes&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=DM+Sans:wght@500&family=Great+Vibes&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #010101;
+    color: #ffffff;
+    padding: 10px;
+    max-height: 48px;
+}
+
+.logo{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: start;
+    font-family: 'Great Vibes', cursive;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+        
+}
+
+.menu li{
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu li:hover {
+    text-decoration: underline;
+
+}
+
+.text-logo{
+    margin-left: 10px;
+}
+
+.hero-div{
+    display: flex;
+    width: 100%;
+    background-color: #593121;
+    height: 90vh;
+    padding-bottom: 1rem;
+}
+
+.hero-left-section {
+    height: 80vh;
+    width: 50%;
+    /* background-color: green; */
+}
+
+.hero-right-section{
+    height: 80vh;
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.hero-section-heading{
+    font-size: 48px;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    color: #e1e1e1;
+    margin-bottom: 6px;
+}
+.heading-span{
+    color: #c5a86d;
+    border-bottom: 3px solid #c5a86d;
+    border-radius: 8px;
+}
+.hero-section-subheading{
+    font-size: 18px;
+    padding: 1rem;
+    padding-left: 2rem;
+    color: #e1e1e1;
+}
+
+.hero-btn{
+    margin-left: 2rem;
+    margin-top: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 36px;
+    padding-right: 36px;
+    background-color: #02020A;
+    border: none;
+    border-radius: 10px;
+    color: #F4EBD9;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hero-btn:hover{
+    cursor: pointer;
+    background-color: #F4EBD9;
+    /* border: 2px solid #02020A; */
+    color: #02020A;
+    transition-duration: 350ms;
+}
+.coffee_image{
+    width: 39rem;
+}
+
+.coffee_review_number{
+    font-size: 26px;
+    font-family: 'Abhaya Libre', serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.coffee_review_text{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
